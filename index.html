@@ -13,6 +13,10 @@
 	<link rel="stylesheet" href="css/common.css">
 	<!-- 引入首页的css文件 -->
 	<link rel="stylesheet" href="css/index.css">
+	<!-- 这个animate.js 必须写到 index.js的上面引入 -->
+    <script src="js/animate.js"></script>
+    <!-- 引入我们首页的js文件 -->
+    <script src="js/index.js"></script>
 </head>
 <body>
 	<!-- 顶部快捷导航栏start -->
@@ -196,20 +200,26 @@
 	<div class="w">
 		<div class="main">
 			<div class="focus">
-				<a href="#" class="arrow_l"><span></span></a>
-				<a href="#" class="arrow_r"></a>
+				<a href="javascript:;" class="arrow_l"><span></span></a>
+				<a href="javascript:;" class="arrow_r"></a>
+				<!-- 核心滚动区域 -->
 				<ul>
-					<li><a href="#"><img src="upload/focus.jpg" alt=""></a></li>
+					<li>
+                        <a href="#"><img src="upload/focus.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus3.jpg" alt=""></a>
+                    </li>
 				</ul>
+				<!-- 小圆圈 -->
 				<ol class="circle">
-					<li></li>
-					<li class="current"></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					
 				</ol>
 			</div>
 			<div class="newflash fr">

@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/common.css">
 	<!-- 引入详情页的css文件 -->
 	<link rel="stylesheet" href="css/detail.css">
+	<!-- 引入detail.js -->
+	<script src="js/detail.js"></script>
 </head>
 <body>
 	<!-- 顶部快捷导航栏start -->
@@ -207,6 +209,10 @@
 			<div class="preview_wrap fl">
 				<div class="preview_img">
 					<img src="upload/s3.png" alt="">
+					<div class="mask">1</div>
+					<div class="big">
+						<img src="upload/big.jpg" alt="" class="bigImg">
+					</div>
 				</div>
 				<div class="preview_list">
 					<a href="#" class="arrow_prev"></a>
@@ -386,15 +392,15 @@
 			<div class="detail fr">
 				<div class="detail_tab_list">
 					<ul>
-						<li>商品介绍</li>
-						<li class="current">规格与包装</li>
+						<li class="current">商品介绍</li>
+						<li>规格与包装</li>
 						<li>售后保障</li>
 						<li>商品评价（50000）</li>
 						<li>手机社区</li>
 					</ul>
 				</div>
 				<div class="detail_tab_con">
-					<div class="item">
+					<div class="item" style="display: block;">
 						<ul class="item_info">
 							<li>分辨率：1920*1080(FHD)</li>
 							<li>后置摄像头：1200万像素</li>
@@ -417,6 +423,18 @@
 						<img src="upload/intro01.png" alt="">
 						<img src="upload/intro02.png" alt="">
 						<img src="upload/intro03.png" alt="">
+					</div>
+					<div class="item">
+						规格与包装模块内容
+					</div>
+					<div class="item">
+						售后保障模块内容
+					</div>
+					<div class="item">
+						商品评价（50000）模块内容
+					</div>
+					<div class="item">
+						手机社区模块内容
 					</div>
 				</div>
 			</div>
